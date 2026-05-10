@@ -15,3 +15,4 @@ async function start() {
 }
 
 void start();
+const x: number = "這是一個故意的型別錯誤" // 失敗案例
