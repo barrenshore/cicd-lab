@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "## CI Check Results" >> $GITHUB_STEP_SUMMARY
           echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
-          echo "| --- | --- |" >> $GITHUB_STEP_SUMMARY
+          echo "| :- | :- |" >> $GITHUB_STEP_SUMMARY
 
       - name: TypeScript typecheck
         run: |
